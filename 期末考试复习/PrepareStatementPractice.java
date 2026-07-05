@@ -52,7 +52,7 @@ public class PrepareStatementPractice
             {
                 conn.close();
             }
-            catch(SQLException e)
+            catch(Exception e)
             {
                 System.out.println(e);
             }
